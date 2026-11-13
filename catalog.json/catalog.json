@@ -1,0 +1,23 @@
+[{
+  "code": "1",
+  "name": "Versace",
+  "description": "Versace Pour Homme for Men 3.4 oz Eau de Toilette Spray ",
+  "price": 111.99,
+  "quantity": 5,
+  "image": "item1.jpg"
+},{
+  "code": "2",
+  "name": "Creed Aventus",
+  "description": "Men's Luxury Cologne, Dry Woods, Fresh & Citrus Fruity Fragrance ",
+  "price": 400.99,
+  "quantity": 5,
+  "image": "item2.jpg"
+},
+{
+  "code": "3",
+  "name": "Dior Sauvage",
+  "description": "Men's Eau de Toilette Spray, Fresh & Spicy Fragrance ",
+  "price": 150.99,
+  "quantity": 5,
+  "image": "item3.jpg"
+}]

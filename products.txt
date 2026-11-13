@@ -1,0 +1,25 @@
+app.get("/products2", (req, res) => 
+{  
+   const item2find = new Object();
+	
+   Catalog.find(item2find, '', function (err, data) 
+   {
+		var catalog=""
+		if (err) return handleError(err);
+		if(data=="")
+		{
+			/* CATALOG IS EMPTY */
+		}
+		else
+		{
+			let catdata="";
+			for(var i=0;i<data.length;i++)
+			{
+			    catdata+=`???????????????????`;
+			    res.render ( "products.ejs",{catalog:catdata});
+			}
+		}
+		
+   });
+});
+
